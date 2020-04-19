@@ -56,10 +56,10 @@ Checkboxes and radio buttons:
 
 
 
-pe
-==
+uni
+===
 
-pe stands for Pluggable Editor. It is an editor meant to be as simple (stupid) as possible, and rely heavily on
+`uni` is an editor meant to be as simple as possible, and rely heavily on
 plugins like `imd` to actually do anything useful. Its original purpose is to serve as a way to interact with `imd`
 pages - for instance, to jump between interactive components, follow links and buttons, edit form contents,
 check checkboxes, and submit forms.
@@ -74,13 +74,16 @@ Emacs is an editor centered around _commands_. At the core of Emacs' philosophy 
 character key or key combination is executing a command, and that that command should be easily customizable.
 Special commands are performed with combinations of Ctrl+Key combinations.
 
+Nano is the only editor that gets full marks for usability because it clearly displays its keybindings at the bottom
+of the screen. It's "friendly" but not much else.
 
-### Summing it up for pe
 
-pe should allow easy movements, and use the structured information from a program like `imd` to determine what
+### Summing it up for uni
+
+`uni` should allow easy movements, and use the structured information from a program like `imd` to determine what
 'words', 'lines', and 'sections' are in the given context.
 
-pe should not be modal by default, but allow a user to turn on modality if they so desire. The insert and normal modes
+`uni` should not be modal by default, but allow a user to turn on modality if they so desire. The insert and normal modes
 should be strikingly visually different (different or even inverted color schemes) to help prevent mode errors.
 
 The modal key combinations should be exactly the same as the Ctrl+Key combinations in insert mode. For example, if
@@ -88,7 +91,7 @@ The modal key combinations should be exactly the same as the Ctrl+Key combinatio
 combinations should be completely ignored in normal mode. In essence, the only reason to use normal mode should be 
 not wanting to hold down Ctrl for long sequences of commands.
 
-Like Emacs, pe should allow easy customizations of its commands (in Prolog?).
+Like Emacs, `uni` should allow easy customizations of its commands (in Prolog?).
 
 
 
